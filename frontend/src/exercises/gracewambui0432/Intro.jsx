@@ -1,9 +1,10 @@
 // Intro - Grace Wambui - Task 15.1
 function Intro() {
   const myName = "Grace Wambui";
-  const today = new Date().toDateString();
-  const hour = new Date().getHours();
-
+  const now = new Date();
+const today = now.toLocaleDateString();
+const hour = now.getHours();
+  
   let greeting = "";
   if (hour < 12) {
     greeting = "Good morning, and welcome to my introduction.";

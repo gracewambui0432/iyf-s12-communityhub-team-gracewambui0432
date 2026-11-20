@@ -1,9 +1,10 @@
 // Intro - Claire Gakuru - Task 15.3
+const now = new Date();
+const today = now.toLocaleDateString();
+const hour = now.getHours();
+
 function Intro() {
   const myName = "Claire Gakuru";
-  const now = new Date();
-  const today = now.toLocaleDateString();
-  const hour = now.getHours();
 
   let greeting = "";
   if (hour < 12) {

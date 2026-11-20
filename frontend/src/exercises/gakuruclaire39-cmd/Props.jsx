@@ -6,11 +6,6 @@ function Greeting({ name }) {
   return <h2>Hello, {name}!</h2>;
 }
 
-// Alternative using props object (for reference)
-function GreetingAlt(props) {
-  return <h2>Hello, {props.name}!</h2>;
-}
-
 // ===== EXERCISE 2: Dynamic PostCard =====
 function PostCard({ title, excerpt, author, date }) {
   return (

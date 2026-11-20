@@ -1,3 +1,4 @@
+import { test, expect } from 'vitest';
 import { sortNewestFirst, searchPosts } from './posts';
 const posts = [
   { id: 1, title: 'Hello', author: 'Claire' },

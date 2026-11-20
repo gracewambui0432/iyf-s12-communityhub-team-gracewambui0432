@@ -1,0 +1,4 @@
+.card { padding: 20px; border-radius: 10px; margin: 10px 0; }
+.card-primary { background: #1877f2; color: white; }
+.card-secondary { background: #e4e6eb; color: #1c1e21; }
+.card-outlined { background: white; border: 2px solid #1877f2; color: #1c1e21; }

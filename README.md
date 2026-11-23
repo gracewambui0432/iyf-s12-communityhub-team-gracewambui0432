@@ -4,7 +4,7 @@ CommunityHub is a team project built with React (Vite) for IYF Season 12, Week 8
 
 ## Live Demo
 
-**Live Website:** https://iyf-s12-communityhub-team-gracewambui0432.vercel.app
+**Live Website:** https://iyf-s12-communityhub-team-gracewamb.vercel.app
 
 **Team Repo:** https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432
 

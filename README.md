@@ -80,3 +80,23 @@ CommunityHub/
 
 We do not push directly to main. Main is protected and needs a PR and 1 approval.
 We create a branch, make a change, open a PR, review each other, then merge.
+
+## 18.4 Accessibility Audit
+
+**Lighthouse Report - Before Fix:**
+- Accessibility: 87
+- Best Practices: 100
+- Performance: 44
+- SEO: 82
+
+**Fixes I Made:**
+- Added visible focus outline for keyboard users (`:focus-visible`)
+- Added `<label>` and `aria-label` to Search input (this was the main issue)
+- Added skip link for keyboard navigation
+- Added `<main>` landmark for screen readers
+- Added auto-fix for images missing alt text and buttons missing names
+- Fixed color contrast to meet WCAG AA
+
+**Lighthouse Report - After Fix:**
+- Accessibility: 93
+- Best Practices: 100

@@ -109,3 +109,10 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ===== 18.4 MEGA FIX ===== */
+*:focus-visible { outline: 3px solid #000 !important; outline-offset: 2px !important; }
+body, p, span, li, label, h1, h2, h3, h4, h5, h6 { color: #000 !important; background-color: #fff !important; }
+a, button { color: #0000EE !important; }
+input, textarea, select { border: 2px solid #000 !important; background: #fff !important; color: #000 !important; }
+img { border: 0 !important; }

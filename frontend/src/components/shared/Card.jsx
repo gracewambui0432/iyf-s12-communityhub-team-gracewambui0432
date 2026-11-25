@@ -1,14 +1,3 @@
-function Card({ title, children }) {
-    return (
-        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold mb-4 text-gray-800">
-                {title}
-            </h3>
-            <div className="text-gray-600">
-                {children}
-            </div>
-        </div>
-    );
+export default function Card({ children }) {
+  return <div style={{ background: 'white', padding: '16px', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', marginBottom: '12px' }}>{children}</div>;
 }
-
-export default Card;

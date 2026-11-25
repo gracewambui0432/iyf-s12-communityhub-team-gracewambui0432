@@ -47,7 +47,7 @@ Profiles
 - https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/14
 
 
-## Claire Gakuru
+## Claire Wairimu
 - GitHub: https://github.com/gakuruclaire39-cmd
 - Role: Frontend Developer
 
@@ -99,31 +99,62 @@ https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/iss
 ##   Week 9 - CommunityHub
 
 ## Grace Wambui
-What I Did - Week 9
+### What I Did - Week 9
 Lesson 18 - I own this end-to-end
-All in frontend/src/exercises/gracewambui0432/
-18.1 Custom Hooks - useLocalStorage, useToggle, useForm with values / errors / touched / handleChange / handleBlur / reset
-18.2 Styling - Button.module.css + Button.jsx, Tailwind setup, Card + Button with Tailwind variants
-18.3 Component Library - src/components/shared/ Button / Input / Card / Modal / Avatar + index.js export all
-18.4 Accessibility Audit - Lighthouse Accessibility before / after score in README, keyboard, labels, alt text, contrast, focus visible
 
-Mini Project - My Split - Routing, Pages & Layout
-src/App.jsx - I OWN IT - all Routes
-src/pages/Home.jsx - welcome + recent 3 posts
-src/pages/PostDetail.jsx - single post view
-src/pages/CreatePost.jsx - page wrapper
-src/components/Post/CreatePostForm.jsx - form + validation
-src/pages/About.jsx
-src/components/Layout/Header.jsx - with navigation
-src/components/Layout/Footer.jsx
-src/components/Layout/Sidebar.jsx
-src/main.jsx - BrowserRouter check
-Styling - CSS Modules / Tailwind + responsive + design system
+- All in frontend/src/exercises/gracewambui0432/
+- 18.1 Custom Hooks - useLocalStorage, useToggle, useForm with values / errors / touched / handleChange / handleBlur / reset
+- 18.2 Styling - Button.module.css + Button.jsx, Tailwind setup, Card + Button with Tailwind variants
+- 18.3 Component Library - src/components/shared/ Button / Input / Card / Modal / Avatar + index.js export all
+- 18.4 Accessibility Audit - Lighthouse Accessibility before / after score in README, keyboard, labels, alt text, contrast, focus visible
+
+### Mini Project - My Split - Routing, Pages & Layout
+- src/App.jsx - I OWN IT - all Routes
+- src/pages/Home.jsx - welcome + recent 3 posts
+- src/pages/PostDetail.jsx - single post view
+- src/pages/CreatePost.jsx - page wrapper
+- src/components/Post/CreatePostForm.jsx - form + validation
+- src/pages/About.jsx
+- src/components/Layout/Header.jsx - with navigation
+- src/components/Layout/Footer.jsx
+- src/components/Layout/Sidebar.jsx
+- src/main.jsx - BrowserRouter check
+- Styling - CSS Modules / Tailwind + responsive + design system
 
 ### PRs I Opened - Week 9
 - https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/44
 - https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/40
 
-### PRs I Reviewed
+### PRs I Reviewed - Week 9
 - https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/38
 - https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/39
+
+## Claire Wairimu
+
+### What I Did - Week 9
+Lesson 17 - I own this end-to-end
+
+- 17.1 useEffect Hook - Counter with useEffect on mount / on count change / cleanup with setInterval, WindowSize with resize listener +  cleanup, ThemeToggle with localStorage sync
+- 17.2 Data Fetching - PostList fetch from jsonplaceholder, loading + error + empty states, custom hook hooks/useFetch.js returning     data, loading, error }
+- 17.3 React Router - Routes in App.jsx, Layout with Outlet + Link, dynamic route posts/:postId, PostDetail with useParams + fetch, Navigation with useNavigate + NavLink
+- 17.4 Loading & Error States - LoadingSpinner.jsx, ErrorMessage.jsx with retry, PostList using both + No posts found state
+
+### Mini Project - My Split - Data, Posts & Reusable UI
+- src/hooks/useFetch.js - fetch from JSONPlaceholder
+- src/hooks/useLocalStorage.js - save likes + new posts
+- src/pages/Posts.jsx - all posts + search / filter
+- src/components/Post/PostList.jsx
+- src/components/Post/PostCard.jsx - with Like button
+- src/components/shared/Button.jsx
+- src/components/shared/Input.jsx
+- src/components/shared/Card.jsx
+- src/components/shared/LoadingSpinner.jsx
+- src/components/shared/ErrorMessage.jsx
+
+## PRs I Opened - Week 9
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/38
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/39
+
+## PRs I Reviewed - Week 9
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/44
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/40

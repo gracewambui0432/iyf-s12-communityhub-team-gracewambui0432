@@ -95,3 +95,35 @@ https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/iss
 - Exercises in `frontend/src/exercises/<username>/`, one branch per exercise.
 - Function components + `useState` only. No class components.
 - Components in `src/components/`.
+
+##   Week 9 - CommunityHub
+
+## Grace Wambui
+What I Did - Week 9
+Lesson 18 - I own this end-to-end
+All in frontend/src/exercises/gracewambui0432/
+18.1 Custom Hooks - useLocalStorage, useToggle, useForm with values / errors / touched / handleChange / handleBlur / reset
+18.2 Styling - Button.module.css + Button.jsx, Tailwind setup, Card + Button with Tailwind variants
+18.3 Component Library - src/components/shared/ Button / Input / Card / Modal / Avatar + index.js export all
+18.4 Accessibility Audit - Lighthouse Accessibility before / after score in README, keyboard, labels, alt text, contrast, focus visible
+
+Mini Project - My Split - Routing, Pages & Layout
+src/App.jsx - I OWN IT - all Routes
+src/pages/Home.jsx - welcome + recent 3 posts
+src/pages/PostDetail.jsx - single post view
+src/pages/CreatePost.jsx - page wrapper
+src/components/Post/CreatePostForm.jsx - form + validation
+src/pages/About.jsx
+src/components/Layout/Header.jsx - with navigation
+src/components/Layout/Footer.jsx
+src/components/Layout/Sidebar.jsx
+src/main.jsx - BrowserRouter check
+Styling - CSS Modules / Tailwind + responsive + design system
+
+### PRs I Opened - Week 9
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/44
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/40
+
+### PRs I Reviewed
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/38
+- https://github.com/gracewambui0432/iyf-s12-communityhub-team-gracewambui0432/pull/39

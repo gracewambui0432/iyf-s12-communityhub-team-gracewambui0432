@@ -1,26 +1,3 @@
-import styles from './Input.module.css';
-
-function Input({ label, error, type = 'text', placeholder, value, onChange, onBlur, name, required = false }) {
-    return (
-        <div className={styles.group}>
-            {label && (
-                <label htmlFor={name} className={styles.label}>
-                    {label} {required && <span className={styles.required}>*</span>}
-                </label>
-            )}
-            <input
-                type={type}
-                id={name}
-                name={name}
-                value={value}
-                onChange={onChange}
-                onBlur={onBlur}
-                placeholder={placeholder}
-                className={`${styles.input} ${error ? styles.inputError : ''}`}
-            />
-            {error && <p className={styles.error}>{error}</p>}
-        </div>
-    );
+export default function Input({ value, onChange, placeholder, type = 'text' }) {
+  return <input type={type} value={value} onChange={onChange} placeholder={placeholder} style={{ width: '100%', padding: '10px', borderRadius: '6px', border: '1px solid #ccc' }} />;
 }
-
-export default Input;

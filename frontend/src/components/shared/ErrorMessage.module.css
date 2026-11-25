@@ -1,0 +1,26 @@
+.box {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.text {
+    color: #b91c1c;
+    margin: 0;
+}
+
+.retryBtn {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.retryBtn:hover {
+    background: #dc2626;
+}

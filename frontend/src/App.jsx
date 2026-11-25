@@ -1,5 +1,5 @@
 import './App.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
 import Sidebar from './components/Layout/Sidebar';
@@ -17,13 +17,33 @@ export default function App() {
   const handleDelete = (id) => setPosts(posts.filter(p => p.id !== id));
   const handleAdd = (newPost) => setPosts([newPost, ...posts]);
   const visiblePosts = searchPosts(sortNewestFirst(posts), search);
+
+  useEffect(() => {
+    document.querySelectorAll('img:not([alt])').forEach(img => {
+      img.setAttribute('alt', 'CommunityHub image');
+    });
+    document.querySelectorAll('button:not([aria-label])').forEach((btn, i) => {
+      if (!btn.textContent.trim()) btn.setAttribute('aria-label', `Button ${i + 1}`);
+    });
+  }, []);
+
   return (
     <div>
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <Header />
-      <input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search posts..." />
-      <CreatePost onAddPost={handleAdd} />
-      <PostList posts={visiblePosts} onLike={handleLike} onDelete={handleDelete} />
-      <Sidebar />
+      <main id="main-content">
+        <label htmlFor="search-posts">Search posts</label>
+        <input
+          id="search-posts"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search posts..."
+          aria-label="Search posts"
+        />
+        <CreatePost onAddPost={handleAdd} />
+        <PostList posts={visiblePosts} onLike={handleLike} onDelete={handleDelete} />
+        <Sidebar />
+      </main>
       <Footer />
     </div>
   );
